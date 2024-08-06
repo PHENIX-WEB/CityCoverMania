@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHENIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="icono.ico" type="image/x-icon">
+    <script src="script2.js"></script>
+</head>
+<body>
+    
+
+<header class="header">
+
+    <div class="menu container">
+<a href="#" class="logo">PHENIX</a>
+<input type="checkbox" id="menu" />
+<label for="menu">
+    <img src="images/menu.png" class="menu-icono" alt="menu">
+</label>
+<nav class="navbar">
+<ul>
+    <li><a href="#">inicio</a></li>
+    <li><a href="https://www.instagram.com/PHENIX_.OFFI/" target="_blank">Nosotros</a>
+    </li>
+    <li><a href="#productos">Productos</a></li>
+    <li><a href="#Contactos">Contactos</a></li>
+    <li><a href="#">Quienes somos?</a></li>
+   
+</ul>
+</nav>
+<div>
+<ul>
+    <li class="submenu">
+        <img src="images/car.svg" id="img-carrito" alt="car">
+        <div id="carrito">
+<table id="lista-carrito">
+    <thead>
+        <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th></th>
+        </tr>
+    </thead>
+<tbody></tbody>
+</table>
+<a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+        </div>
+
+    </li>
+</ul>
+</div>
+
+    </div>
+
+   
+    
+    <div class="header-content container">
+        <div class="header-img">
+            <img src="imagenes/right.png" alt="">
+        </div>
+        <div class="header-txt">
+            <h1>Protege tu mundo</h1>
+            <p>estrena las mejores fundas del mercado con los mejores diseños y materiales</p>
+            <a href="#" class="btn-1">Informacion</a>
+        </div>
+    </div>
+
+</header>
+
+
+<div class="carousel">
+    <input type="radio" id="slide1" name="carousel" checked>
+    <input type="radio" id="slide2" name="carousel">
+    <input type="radio" id="slide3" name="carousel">
+
+    <div class="carousel-slides">
+        <div class="slide" id="s1">
+            <img src="imagenes/Home.png" alt="Imagen 1">
+        </div>
+        <div class="slide" id="s2">
+            <img src="imagenes/Terrain.png" alt="Imagen 2">
+        </div>
+        <div class="slide" id="s3">
+            <img src="imagenes/terrain2.png" alt="Imagen 3">
+        </div>
+    </div>
+
+    <div class="carousel-controls">
+        <label for="slide1" class="control-button">&#10094;</label>
+        <label for="slide2" class="control-button">&#10095;</label>
+        <label for="slide3" class="control-button">&#10096;</label>
+    </div>
+</div>
+
+<section class="ofert container">
+<div class="ofert-1">
+    <div class="ofert-img">
+    <img src="imagenes/f1.png" alt="">
+</div>
+<div class="ofert-txt">
+    <h3>Cargadores</h3>
+    <a href="#Blog1" class="btn-2">Informacion</a>
+</div>
+</div>
+
+<div class="ofert-1">
+    <div class="ofert-img">
+    <img src="imagenes/f2.png" alt="">
+</div>
+<div class="ofert-txt">
+    <h3>Accesorios</h3>
+    <a href="#Blog2" class="btn-2">Informacion</a>
+</div>
+</div>
+
+<div class="ofert-1">
+    <div class="ofert-img">
+    <img src="imagenes/f3.png" alt="">
+</div>
+<div class="ofert-txt">
+    <h3>Cases</h3>
+    <a href="#Blog3" class="btn-2">Informacion</a>
+</div>
+</div>
+</section>
+
+<main class="products container" id="lista-1">
+
+<h2>Elige tu favorito</h2>
+
+<div class="product-content" id="productos">
+    <div class="product">
+<img src="imagenes/car1.png" alt="">
+<div class="products-txt">
+    <h3>Elisyum</h3>
+    <p>calidad premium</p>
+    <p class="precio">$200</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+
+</div>
+    </div>
+
+    <div class="product">
+        <img src="imagenes/car2.jpg" alt="">
+        <div class="products-txt">
+            <h3>Elisyum</h3>
+            <p>calidad premium</p>
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+        
+        </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/car3.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                
+                </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="imagenes/car4.png" alt="">
+                        <div class="products-txt">
+                            <h3>Elisyum</h3>
+                            <p>calidad premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                        
+                        </div>
+                            </div>
+                            <div class="product">
+                                <img src="imagenes/car5.png" alt="">
+                                <div class="products-txt">
+                                    <h3>Elisyum</h3>
+                                    <p>calidad premium</p>
+                                    <p class="precio">$200</p>
+                                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                                
+                                </div>
+                                    </div>
+
+     <div class="product">
+     <img src="imagenes/car6.png" alt="">
+    <div class="products-txt">
+    <h3>Elisyum</h3>
+    <p>calidad premium</p>
+    <p class="precio">$200</p>
+ <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+    </div>
+    </div>
+
+</div>
+
+</main>
+
+<section class="icons container">
+     
+    <div class="icon-1">
+        <div class="icon-img">
+            <i class="fa fa-palette" style="font-size:30px;"></i>
+        </div><br>
+        <div class="icon-txt">
+            <h3> El Arte de la Personalización</h3>
+<p> 
+    Fundas de Celulares que Reflejan tu Estilo Único
+</p>
+        </div>
+
+    </div>
+
+    <div class="icon-1">
+        <div class="icon-img">
+            <i class="fas fa-recycle icon" style="font-size: 30px;"></i>
+        </div><br>
+        <div class="icon-txt">
+            <h3>Tecnología y Materiales<h3>
+<p> 
+    Calidad que Puedes Sentir y Ver
+</p>
+        </div>
+
+    </div>
+
+    <div class="icon-1">
+        <div class="icon-img">
+            <i class="fas fa-user" style="font-size: 30px;"></i>
+        </div><br>
+        <div class="icon-txt">
+            <h3>Historias de Clientes<h3>
+<p> 
+    Cómo Nuestras Fundas han Transformado sus Dispositivos
+</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="blog container">
+    
+    <div class="blog-1" class="link" id="Blog1">
+        <img src="imagenes/b1.jpg" alt="">
+<h3>Blog 1</h3>
+<p>
+    En un mundo donde los dispositivos móviles se han convertido en una extensión de nuestra identidad, 
+    ¿qué mejor manera de destacar que con una funda de celular personalizada? 
+    Ya no se trata solo de proteger tu teléfono, sino de expresar quién eres y lo que amas. 
+    Las fundas personalizadas ofrecen una oportunidad única para transformar un accesorio cotidiano en una obra de arte personal.
+</p>
+    </div>
+
+    <div class="blog-1" class="link" id="Blog2">
+        <img src="imagenes/b2.jpg" alt="">
+<h3>Blog 2</h3>
+<p>
+    Pero, ¿qué hace que nuestras fundas sean realmente especiales? La respuesta está en nuestra tecnología de impresión. 
+    Utilizamos técnicas avanzadas que permiten una reproducción fiel de los colores y detalles de tus diseños. 
+    Además, todas nuestras fundas son compatibles con la carga inalámbrica, para que no tengas que sacrificar funcionalidad por estilo.
+</p>
+    </div>
+
+    <div class="blog-1" class="link" id="Blog3">
+        
+        <img src="imagenes/b3.jpg" alt="">
+<h3>Blog 3</h3>
+<p>
+    Cada funda que creamos es única y cuenta una historia. 
+    Queremos que nuestros clientes sientan que tienen algo especial y exclusivo, hecho solo para ellos. 
+    Nos esforzamos por ofrecer una experiencia de compra fácil y satisfactoria, 
+    desde la personalización en línea hasta la entrega rápida y segura.
+</p>
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-content container">
+
+        <div class="link" id="Contactos">
+            <h3>CONTÁCTANOS</h3>
+            <ul>
+                <li><a href="https://wa.me/3172184966?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios" target="_blank">Chatea con nosotros en WhatsApp</a>
+                </li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>Políticas</h3>
+            <ul>
+                <li><a href="politica-privacidad.html">Políticas de Privacidad</a></li>
+                <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                <li><a href="/politicas-de-devoluciones.html" class="footer-link">Políticas de Devoluciones</a></li>
+                <li><li><a href="/privacy-policy">Política de protección de datos</a></li>
+            </li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>REGÍSTRATE Y AHORRA</h3>
+            <ul>
+                <li><a href="#">Suscríbase para obtener ofertas especiales
+                    
+                </a></li>
+                <span> <a href="register.html">No tienes cuenta? Crea una</a></span>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+            <h3>Follow us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+   
+      
+        
+</footer>
+
+
+
+</body>
+</html>
+
